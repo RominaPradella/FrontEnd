@@ -13,6 +13,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [],
@@ -26,7 +27,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatSnackBarModule,
     MatProgressSpinnerModule,
     MatToolbarModule,
-    MatGridListModule
+    MatGridListModule,
+    MatIconModule
   ],
   exports:[
     CommonModule,
@@ -38,7 +40,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatSnackBarModule,
     MatProgressSpinnerModule,
     MatToolbarModule,
-    MatGridListModule
+    MatGridListModule,
+    MatIconModule
   ]
 })
 export class ModangularModule { }

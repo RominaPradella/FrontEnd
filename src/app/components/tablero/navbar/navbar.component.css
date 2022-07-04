@@ -1,6 +1,11 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
 .navbar{
   background-color:mediumseagreen;
   color: aliceblue;
   font-size: 13px;
   line-height: 18px;
   }
+
